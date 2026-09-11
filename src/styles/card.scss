@@ -85,7 +85,9 @@
 
     background-color: $color-accent;
 
-    transition: background-color 0.3s, color 0.3s;
+    transition:
+      background-color 0.3s,
+      color 0.3s;
 
     &:hover {
       color: $color-accent;
