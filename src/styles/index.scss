@@ -1,10 +1,19 @@
-@import 'variables';
+@use './variables';
+@use './card';
+@use './stars';
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-@import 'stars';
-@import 'card';
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+
+  font-family: Roboto, sans-serif;
+
+  background-color: #f3f3f3;
+}
