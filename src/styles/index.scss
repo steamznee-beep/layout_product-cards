@@ -1,13 +1,10 @@
 @import 'variables';
-@import 'card';
-@import 'stars';
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+
+* {
   margin: 0;
-  padding: 20px;
-  font-family: 'Roboto', sans-serif;
-  background-color: #e5e5e5;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+@import 'stars';
+@import 'card';
